@@ -14,9 +14,9 @@ const Home = () => {
         setMenuSlide(prev=>!prev)
     }
     window.onresize = (e)=>{
-
-        // console.log()
-        e.currentTarget.innerWidth == 450 || 500 || 600 || 700 || 800 ? location.reload() : ''
+        console.log(e.currentTarget.innerWidth<450)
+        // console.log() 
+        e.currentTarget.innerWidth < 450 ? location.reload() : ''
     }
     const [menuLeft,setMenuLeft] = useState(false)
     const handleEventBtn = (e) =>{

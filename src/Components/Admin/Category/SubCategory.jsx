@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import SubCategoryTable from './SubCategoryTable'
+import Topbar from '../AdminComponent/Topbar'
 
 function SubCategory() {
   const logoInput = useRef(null)
@@ -20,10 +21,7 @@ function SubCategory() {
   }
   return (
     <div className='w-full'>
-      <div className='flex items-center gap-2'>
-        <img src="https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png" className='w-6' alt="" />
-        <h1 className='font-semibold text-red-500 text-lg'>Add New Sub Category</h1>    
-      </div>
+      <Topbar icon={'https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png'} title={'Add New Sub Category'}/>
       <div className='w-full border rounded-md gap-3 mt-5'>
         <form className='w-full p-5'>
           <div className='w-full grid md:grid-cols-2 grid-cols-1 gap-5'>

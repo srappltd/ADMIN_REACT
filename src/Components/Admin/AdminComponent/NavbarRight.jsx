@@ -25,7 +25,7 @@ const NavbarRight = ({menuSlide,menuCloseBtn,menuLeft}) => {
                         </div>
                     </div>
                 </div>
-                <div className={`w-[200px] h-[150px] bg-green-500 p-3 ${menuLeft ? 'block' : 'hidden'} fixed top-[8vh] z-30 lg:right-10 right-5`}></div>
+                <div className={`w-[200px] h-[150px] rounded bg-green-500 p-3 ${menuLeft ? 'block' : 'hidden'} fixed top-[8vh] z-30 lg:right-10 right-5`}></div>
             </nav>
   )
 }

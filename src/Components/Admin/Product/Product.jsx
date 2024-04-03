@@ -1,13 +1,11 @@
 import React from 'react'
 import ProductTable from './ProductTable'
+import Topbar from '../AdminComponent/Topbar'
 
 const Product = () => {
   return (
     <div className='w-full'>
-      <div className='flex items-center gap-2'>
-        <img src="https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png" className='w-6' alt="" />
-        <h1 className='font-semibold text-red-500 text-lg'>Add New Category</h1>    
-      </div>
+      <Topbar icon={'https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png'} title={'Product List'}/>
       <div className='w-full border rounded-md gap-3 mt-5'>
           <div className='w-full flex justify-between mt-5 px-5 md:text-sm text-xs font-medium'>
             <div className='md:w-3/12 w-full flex items-center border rounded border-red-300'>

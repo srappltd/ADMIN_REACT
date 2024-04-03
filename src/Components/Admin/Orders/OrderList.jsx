@@ -4,15 +4,12 @@ import FilterBox from './FilterBox'
 import SearchBox from './SearchBox'
 import { Link } from 'react-router-dom'
 import OrderTable from './OrderTable'
+import Topbar from '../AdminComponent/Topbar'
 
 function OrderList() {
   return (
     <div className='w-full'>
-      <div className='flex items-center gap-2'>
-        <img src="https://efood-admin.6amtech.com/public/assets/admin/img/icons/all_orders.png" className='w-6' alt="" />
-        <h1 className='font-semibold text-red-500 text-lg'>All Orders</h1>
-        <span className='py-1 px-3 rounded-full bg-zinc-200 text-xs font-bold'>100</span>
-      </div>
+      <Topbar icon={'https://efood-admin.6amtech.com/public/assets/admin/img/icons/all_orders.png'} title={'All Orders'}/>
       <div className='w-full border rounded-md flex flex-col gap-3 mt-5'>
         <div className='w-full p-5'>
           <FilterBox />

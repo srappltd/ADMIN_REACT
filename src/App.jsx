@@ -8,6 +8,10 @@ import Category from './Components/Admin/Category/Category'
 import SubCategory from './Components/Admin/Category/SubCategory'
 import Product from './Components/Admin/Product/Product'
 import ProductAdd from './Components/Admin/Product/ProductAdd'
+import ProductReview from './Components/Admin/Product/ProductReview'
+import Banner from './Components/Admin/Banner/Banner'
+import Coupon from './Components/Admin/Coupon/Coupon'
+import Notification from './Components/Admin/Notification/Notification'
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
           <Route path='/admin/sub-category' Component={SubCategory}/>
           <Route path='/admin/products' Component={Product}/>
           <Route path='/admin/add-product' Component={ProductAdd}/>
+          <Route path='/admin/product-review/:id' Component={ProductReview}/>
+          <Route path='/admin/banner' Component={Banner}/>
+          <Route path='/admin/coupon' Component={Coupon}/>
+          <Route path='/admin/notification' Component={Notification}/>
         </Route>
       </Routes>
     </div>

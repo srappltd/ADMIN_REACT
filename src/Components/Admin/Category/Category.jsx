@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import CategoryTable from './CategoryTable'
+import Topbar from '../AdminComponent/Topbar'
 
 function OrderList() {
   const logoInput = useRef(null)
@@ -21,10 +22,7 @@ function OrderList() {
   }
   return (
     <div className='w-full'>
-      <div className='flex items-center gap-2'>
-        <img src="https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png" className='w-6' alt="" />
-        <h1 className='font-semibold text-red-500 text-lg'>Add New Category</h1>    
-      </div>
+      <Topbar icon={'https://efood-admin.6amtech.com/public/assets/admin/img/icons/category.png'} title={'Add New Category'}/>
       <div className='w-full border rounded-md gap-3 mt-5'>
         <form className='w-full p-5'>
           <div>
