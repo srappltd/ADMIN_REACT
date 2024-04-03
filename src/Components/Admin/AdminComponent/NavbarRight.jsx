@@ -25,7 +25,17 @@ const NavbarRight = ({menuSlide,menuCloseBtn,menuLeft}) => {
                         </div>
                     </div>
                 </div>
-                <div className={`w-[200px] h-[150px] rounded bg-green-500 p-3 ${menuLeft ? 'block' : 'hidden'} fixed top-[8vh] z-30 lg:right-10 right-5`}></div>
+                <div className={` text-sm font-semibold rounded bg-white text-zinc-500 shadow-[0px_0px_5px_rgba(210,210,210,5)] ${menuLeft ? 'block' : 'hidden'} fixed top-[9vh] z-30 lg:right-10 right-5`}>
+                    <div className='w-full p-3 border-b flex items-center gap-3 '>
+                        <img src="https://efood-admin.6amtech.com/storage/app/public/admin/2023-09-13-650156f48dc51.png" className='w-12 h-12 border shrink-0 object-cover rounded-full' alt="" />
+                        <div className='w-full'>
+                            <h1 className='text-black'>admin</h1>
+                            <h1 className='text-zinc-500 w-full overflow-hidden font-medium'>abhaygautam626039@gmail.com</h1>
+                        </div>
+                    </div>
+                    <Link to={'/'} className='border-b h-11 items-center flex px-3'>Setting</Link>
+                    <Link to={'/'} className='border-b h-11 items-center flex px-3'>Sign out</Link>
+                </div>
             </nav>
   )
 }

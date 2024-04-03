@@ -39,8 +39,8 @@ const Table = () => {
                   </td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs text-blue-500 bg-blue-100 w-fit'>100</td>
                   <td className='pl-3 flex items-center gap-3'>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-red-300 text-red-500'><i class="ri-eye-line"></i></Link>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-printer-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-eye-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded  border-red-300 text-red-500'><i class="ri-delete-bin-2-line"></i></Link>
                   </td>
                 </tr>
                 <tr className='w-full h-16 grid grid-cols-6 gap-3 py-2 items-center text-sm'>
@@ -55,8 +55,8 @@ const Table = () => {
                   </td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs text-blue-500 bg-blue-100 w-fit'>100</td>
                   <td className='pl-3 flex items-center gap-3'>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-red-300 text-red-500'><i class="ri-eye-line"></i></Link>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-printer-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-eye-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded  border-red-300 text-red-500'><i class="ri-delete-bin-2-line"></i></Link>
                   </td>
                 </tr>
                 <tr className='w-full h-16 grid grid-cols-6 gap-3 py-2 items-center text-sm'>
@@ -71,8 +71,8 @@ const Table = () => {
                   </td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs text-blue-500 bg-blue-100 w-fit'>100</td>
                   <td className='pl-3 flex items-center gap-3'>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-red-300 text-red-500'><i class="ri-eye-line"></i></Link>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-printer-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-eye-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded  border-red-300 text-red-500'><i class="ri-delete-bin-2-line"></i></Link>
                   </td>
                 </tr>
                 <tr className='w-full h-16 grid grid-cols-6 gap-3 py-2 items-center text-sm'>
@@ -87,10 +87,11 @@ const Table = () => {
                   </td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs text-blue-500 bg-blue-100 w-fit'>100</td>
                   <td className='pl-3 flex items-center gap-3'>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-red-300 text-red-500'><i class="ri-eye-line"></i></Link>
-                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-printer-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded border-green-300 text-green-500'><i class="ri-eye-line"></i></Link>
+                    <Link className='w-7 h-7 border flex items-center justify-center rounded  border-red-300 text-red-500'><i class="ri-delete-bin-2-line"></i></Link>
                   </td>
                 </tr>
+                
                 
               </tbody>
           </table>

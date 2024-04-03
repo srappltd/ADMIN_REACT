@@ -12,6 +12,8 @@ import ProductReview from './Components/Admin/Product/ProductReview'
 import Banner from './Components/Admin/Banner/Banner'
 import Coupon from './Components/Admin/Coupon/Coupon'
 import Notification from './Components/Admin/Notification/Notification'
+import UsersList from './Components/Admin/Users/UsersList'
+import Setting from './Components/Admin/Setting'
 
 function App() {
   return (
@@ -29,6 +31,11 @@ function App() {
           <Route path='/admin/banner' Component={Banner}/>
           <Route path='/admin/coupon' Component={Coupon}/>
           <Route path='/admin/notification' Component={Notification}/>
+          <Route path='/admin/user-list' Component={UsersList}/>
+          <Route path='/admin/add-user' Component={Notification}/>
+
+          {/* //setting  */}
+          <Route path='/admin/setting' Component={Setting}/>
         </Route>
       </Routes>
     </div>

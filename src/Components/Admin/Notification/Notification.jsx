@@ -32,7 +32,7 @@ function Notification() {
           </div>
             
             <div className='w-full'>
-              <h1>Banner Image* ( Ratio 3:1 )</h1>
+              <h1>Notification Banner* ( Ratio 3:1 )</h1>
               <img src={`${BannerImage ? BannerImage : 'https://efood-admin.6amtech.com/public/assets/admin/img/icons/upload_img2.png'}`} className='w-full h-[200px] mt-5 object-contain mix-blend-multiply rounded-lg' alt="" />
               <p className='text-xs mt-4'>Category Image * <span className='text-red-600'>( Ratio 1:1 )</span></p>
               <div onClick={selectBannerBtn} className='w-full border rounded mt-2 flex text-sm font-medium cursor-pointer'>
