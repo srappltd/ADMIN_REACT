@@ -25,7 +25,7 @@ const SidebarLeft = ({menuSlide,menuClose,menuSlideBtn,menuCloseBtn}) => {
                 <div className='w-full mt-3'>
                     {menuSlide ? '' : <span className='text-xs font-medium text-zinc-400 pl-5'>ORDER MANAGEMENT</span> }
                     
-                    <Button menuSlide={menuSlide} to={'/admin/payment-getway'} classChange={'ri-copper-coin-fill'} text={'Verify Office Payment'}/>
+                    <Button menuSlide={menuSlide} to={'/admin/verify-payment'} classChange={'ri-copper-coin-fill'} text={'Verify Office Payment'}/>
                     <Button menuSlide={menuSlide} to={'/admin/orders'} classChange={'ri-shopping-cart-2-line'} text={'Orders'}/>
                 </div>
                 <div className='w-full mt-3'>

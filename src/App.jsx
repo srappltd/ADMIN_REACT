@@ -14,6 +14,7 @@ import Coupon from './Components/Admin/Coupon/Coupon'
 import Notification from './Components/Admin/Notification/Notification'
 import UsersList from './Components/Admin/Users/UsersList'
 import Setting from './Components/Admin/Setting'
+import PaymentList from './Components/Admin/VerifiyPayment/PaymentList'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/admin/notification' Component={Notification}/>
           <Route path='/admin/user-list' Component={UsersList}/>
           <Route path='/admin/add-user' Component={Notification}/>
+          <Route path='/admin/verify-payment' Component={PaymentList}/>
 
           {/* //setting  */}
           <Route path='/admin/setting' Component={Setting}/>
