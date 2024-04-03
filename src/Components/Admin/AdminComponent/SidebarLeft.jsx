@@ -20,7 +20,6 @@ const SidebarLeft = ({menuSlide,menuClose,menuSlideBtn,menuCloseBtn}) => {
                 </div>
                 <div className='w-full mt-3'>
                     <Button menuSlide={menuSlide} to={'/admin/deshboard'} classChange={'ri-home-4-line'} text={'Deshboard'}/>
-                    <Button menuSlide={menuSlide} to={'/admin/pos'} classChange={'ri-shopping-bag-4-line'} text={'POS'}/>
                 </div>
                 <div className='w-full mt-3'>
                     {menuSlide ? '' : <span className='text-xs font-medium text-zinc-400 pl-5'>ORDER MANAGEMENT</span> }
@@ -47,15 +46,11 @@ const SidebarLeft = ({menuSlide,menuClose,menuSlideBtn,menuCloseBtn}) => {
                 </div>
                 <div className='w-full mt-3'>
                 {menuSlide ? '' : <span className='text-xs font-medium text-zinc-400 pl-5'>HELP & SUPPORT SECTION</span> }
-
-                    
                     <Button menuSlide={menuSlide} to={'/'} classChange={'ri-message-3-line'} text={'Messages'}/>
                 </div>
                 <div className='w-full mt-3'>
                 {menuSlide ? '' :<span className='text-xs font-medium text-zinc-400 pl-5'>USER MANAGEMENT</span> }
-                    
                     <Button menuSlide={menuSlide} to={'/admin/user-list'} classChange={'ri-map-pin-user-fill'} text={'User List'}/>
-                    <Button menuSlide={menuSlide} to={'/admin/add-user'} classChange={'ri-map-pin-user-fill'} text={'User Add'}/>
                 </div>
                 
             </div>

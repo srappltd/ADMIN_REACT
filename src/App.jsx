@@ -35,7 +35,6 @@ function App() {
           <Route path='/admin/user-list' Component={UsersList}/>
           <Route path='/admin/add-user' Component={Notification}/>
           <Route path='/admin/verify-payment' Component={PaymentList}/>
-
           {/* //setting  */}
           <Route path='/admin/setting' Component={Setting}/>
         </Route>
