@@ -1,5 +1,5 @@
 import React from 'react'
-import SecondBox from '../Deshboard/SecondBox'
+import SecondBox from './SecondBox'
 import FilterBox from './FilterBox'
 import SearchBox from './SearchBox'
 import { Link } from 'react-router-dom'

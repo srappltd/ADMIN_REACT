@@ -5,7 +5,7 @@ const BannerTable = () => {
   return (
     <div className='w-full flex-shrink-0 py-3 overflow-x-auto'>
           <table className='md:w-full w-[700px] h-[20px] overflow-x-auto'>
-              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y text-sm'>
+              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y dark:bg-black dark:border-zinc-700 text-sm'>
                 <th className='w-11 text-start pl-3'>
                   SL
                 </th>
@@ -29,7 +29,7 @@ const BannerTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -45,7 +45,7 @@ const BannerTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>

@@ -5,7 +5,7 @@ const BannerTable = () => {
   return (
     <div className='w-full flex-shrink-0 py-3 overflow-x-auto'>
           <table className='md:w-full w-[700px] h-[20px] overflow-x-auto'>
-              <thead className='w-full grid grid-cols-7 gap-3 py-2 border-y text-sm'>
+              <thead className='w-full grid grid-cols-7 gap-3 py-2 border-y dark:border-zinc-700 text-sm'>
                 <th className='w-11 text-start pl-3'>
                   SL
                 </th>
@@ -31,10 +31,10 @@ const BannerTable = () => {
               <tbody>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -48,10 +48,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -65,10 +65,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -82,10 +82,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -99,10 +99,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -116,10 +116,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -133,10 +133,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>
@@ -150,10 +150,10 @@ const BannerTable = () => {
                 </tr>
                 <tr className='w-full grid grid-cols-7 gap-3 py-2 items-center text-sm'>
                   <td className='pl-3'>01</td>
-                  <td className='pl-3 text-zinc-600 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
-                  <td className='pl-3 text-zinc-600'>30.00$</td>
-                  <td className='pl-3 text-zinc-600'>Percent</td>
-                  <td className='pl-3 text-zinc-600'>04 Jan, 2023 - 31 Aug, 20</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-bold'>Code: OFF30 <br /><span className='text-xs font-medium text-zinc-400'>Discount on amount</span></td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>30.00$</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>Percent</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300'>04 Jan, 2023 - 31 Aug, 20</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
                     <input type="checkbox" hidden value="" class="sr-only peer"/>

@@ -16,29 +16,29 @@ function Notification() {
   return (
     <div className='w-full'>
       <Topbar icon={'https://cdn-icons-png.flaticon.com/512/565/565422.png'} title={'Send Notification'}/>
-      <div className='w-full border rounded-md gap-3 mt-5'>
+      <div className='w-full border rounded-md dark:border-zinc-700 gap-3 mt-5'>
         <form className='w-full p-5'>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-5 items-start'>
           <div className='w-full'>
             <div>
               <h1 className='text-sm mb-1'>Title*</h1>
-              <input type="text" placeholder='New Notification' className='border w-full py-2 text-sm rounded-sm px-3' />
+              <input type="text" placeholder='New Notification' className='dark:bg-black dark:border-zinc-700 border w-full py-2 text-sm rounded-sm px-3' />
             </div>
             <div>
               <h1 className='text-sm mb-1 mt-4'>Description*</h1>
-              <textarea type="text" placeholder='Description...' className='border h-[150px] w-full py-2 text-sm rounded-sm px-3'></textarea>
+              <textarea type="text" placeholder='Description...' className='dark:bg-black dark:border-zinc-700 border h-[150px] w-full py-2 text-sm rounded-sm px-3'></textarea>
             </div>
             
           </div>
             
             <div className='w-full'>
               <h1>Notification Banner* ( Ratio 3:1 )</h1>
-              <img src={`${BannerImage ? BannerImage : 'https://efood-admin.6amtech.com/public/assets/admin/img/icons/upload_img2.png'}`} className='w-full h-[200px] mt-5 object-contain mix-blend-multiply rounded-lg' alt="" />
+              <img src={`${BannerImage ? BannerImage : 'https://efood-admin.6amtech.com/public/assets/admin/img/icons/upload_img2.png'}`} className='w-full h-[200px] mt-5 object-contain rounded-lg' alt="" />
               <p className='text-xs mt-4'>Category Image * <span className='text-red-600'>( Ratio 1:1 )</span></p>
-              <div onClick={selectBannerBtn} className='w-full border rounded mt-2 flex text-sm font-medium cursor-pointer'>
-                <input ref={bannrInput} onChange={bannerInputChange} type="file" hidden className='bannerInput w-full py-2 border'/>
+              <div onClick={selectBannerBtn} className='w-full border dark:border-zinc-700 rounded mt-2 flex text-sm font-medium cursor-pointer'>
+                <input ref={bannrInput} onChange={bannerInputChange} type="file" hidden className='bannerInput w-full py-2 border '/>
                 <div className='w-4/5 py-[10px] px-3 text-sm text-zinc-700 font-normal'>Choose File</div>
-                <div className='w-1/5 flex items-center justify-center border-l'>Browse</div>
+                <div className='w-1/5 flex items-center justify-center border-l dark:border-zinc-700'>Browse</div>
               </div>
             </div>
           </div>

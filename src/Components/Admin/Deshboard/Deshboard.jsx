@@ -11,13 +11,13 @@ const Deshboard = () => {
             <h1 className='font-semibold text-xl text-red-500'>Welcome, Admin.</h1>
             <p className='font-semibold text-sm'>Monitor your business analytics and statistics</p>
         </div>
-        <div className='w-full p-5 border rounded-md flex flex-col gap-3 mt-5'>
+        <div className='w-full p-5 border dark:border-zinc-700 rounded-md flex flex-col gap-3 mt-5'>
             <div className='w-full flex items-center justify-between mb-3 mt-3'>
                 <div className='flex items-center gap-3'>
                     <img src="https://efood-admin.6amtech.com/public/assets/admin/img/icons/business_analytics.png" className='w-5' alt="" />
                     <h1 className='text-sm font-semibold'>Business Analytics</h1>
                 </div>
-                <select name="" id="" className='w-52 p-2 text-sm outline-none border rounded'>
+                <select name="" id="" className='dark:bg-zinc-950 dark:border-zinc-700 w-52 p-2 text-sm outline-none border rounded'>
                     <option value="">Overall Statistics</option>
                     <option value="">Today Statistics</option>
                     <option value="">This Month's Statistics</option>

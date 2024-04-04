@@ -10,7 +10,7 @@ const FilterBox = () => {
             <div className='grid md:grid-cols-4 grid-cols-1 md:gap-5 gap-2 mt-5'>
                 <div className='w-full'>
                     <h1 className='text-zinc-400 text-sm mb-2'>Select Branch</h1>
-                    <select name="" id="" className='w-full p-2 text-sm cursor-pointer outline-none border rounded'>
+                    <select name="" id="" className='dark:bg-black w-full p-2 text-sm cursor-pointer outline-none border rounded'>
                         <option value="">Overall Statistics</option>
                         <option value="">Today Statistics</option>
                         <option value="">This Month's Statistics</option>
@@ -18,15 +18,15 @@ const FilterBox = () => {
                 </div>
                 <div className='w-full'>
                     <h1 className='text-zinc-400 text-sm mb-2'>Start Date</h1>
-                    <input name="" type='date' id="" className='w-full p-2 text-sm cursor-pointer outline-none border rounded' />
+                    <input name="" type='date' id="" className='w-full dark:bg-black p-2 text-sm cursor-pointer outline-none border rounded' />
                 </div>
                 <div className='w-full'>
                     <h1 className='text-zinc-400 text-sm mb-2'>Start Date</h1>
-                    <input name="" type='date' id="" className='w-full p-2 text-sm outline-none border cursor-pointer rounded' />
+                    <input name="" type='date' id="" className='w-full dark:bg-black p-2 text-sm outline-none border cursor-pointer rounded' />
                 </div>
                 <div className='w-full grid grid-cols-2 items-end gap-5 md:text-sm text-xs font-medium'>
-                    <button type='reset' className='py-2 bg-zinc-100 w-full rounded'>Clear</button>
-                    <button type='submit' className='py-2 bg-orange-400 text-white w-full rounded'>Show Data</button>
+                    <button type='reset' className='py-2 bg-zinc-100 dark:bg-zinc-950 w-full rounded'>Clear</button>
+                    <button type='submit' className='py-2 bg-red-500 text-white w-full rounded'>Show Data</button>
                 </div>
 
             </div>

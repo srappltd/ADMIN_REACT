@@ -5,7 +5,7 @@ const SubCategoryTable = () => {
   return (
     <div className='w-full flex-shrink-0 py-3 overflow-x-auto'>
           <table className='lg:w-full w-[700px] h-[20px] overflow-x-auto'>
-              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y text-sm'>
+              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y dark:border-zinc-700 text-sm'>
                 <th className='w-11 text-start pl-3'>
                   SL
                 </th>

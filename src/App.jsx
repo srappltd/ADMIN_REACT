@@ -18,7 +18,7 @@ import PaymentList from './Components/Admin/VerifiyPayment/PaymentList'
 
 function App() {
   return (
-    <div className=''>
+    <div className='*:dark:bg-black dark:text-white dark:border-zinc-600 select-none' onContextMenu={(e)=>e.preventDefault()}>
       <Routes>
         <Route path='/admin/login' Component={SignIn} />
         <Route path='/admin' Component={Home}>

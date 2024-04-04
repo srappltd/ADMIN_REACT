@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import {Link, Outlet } from 'react-router-dom'
 import NavbarRight from './NavbarRight'
-import Deshboard from '../Deshboard/Deshboard'
 
 function SidebarRight({menuSlide,menuClose,menuSlideBtn,menuCloseBtn,menuLeft}) {
   return (

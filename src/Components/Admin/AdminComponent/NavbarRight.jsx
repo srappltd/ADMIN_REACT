@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const NavbarRight = ({menuSlide,menuCloseBtn,menuLeft}) => {
   return (
-    <nav className='w-full h-[8vh] border-b flex items-center justify-between lg:px-10 px-5 text-xl bg-white'>
+    <nav className='w-full h-[8vh] border-b dark:border-zinc-600 flex items-center justify-between lg:px-10 px-5 text-xl bg-white dark:bg-black'>
                 <div className='flex items-center lg:gap-3 gap-2'>
                     <Link to={'/'} className={`font-bold ${menuSlide ? '' : 'lg:hidden' } block text-sm lg:text-xl transition-all duration-300`}>
                         <img src="https://efood-admin.6amtech.com/storage/app/public/restaurant/2023-01-05-63b65bf675169.png" className='h-6' alt="" />

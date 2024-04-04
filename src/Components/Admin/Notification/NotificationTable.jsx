@@ -5,7 +5,7 @@ const NotificationTable = () => {
   return (
     <div className='w-full flex-shrink-0 py-3 overflow-x-auto'>
           <table className='md:w-full w-[700px] h-[20px] overflow-x-auto'>
-              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y text-sm'>
+              <thead className='w-full grid grid-cols-6 gap-3 py-2 border-y dark:border-zinc-700 text-sm'>
                 <th className='w-11 text-start pl-3'>
                   SL
                 </th>
@@ -29,7 +29,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -45,7 +45,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -61,7 +61,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -77,7 +77,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -93,7 +93,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -109,7 +109,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">
@@ -125,7 +125,7 @@ const NotificationTable = () => {
                 <tr className='w-full grid grid-cols-6 gap-3 py-2 items-start text-sm'>
                   <td className='pl-3'>01</td>
                   <td className='pl-3 flex items-center'><img src="https://efood-admin.6amtech.com/storage/app/public/banner/2023-11-07-654a2d3043188.png" className='w-full rounded' alt="" /></td>
-                  <td className='pl-3 text-zinc-600 font-medium'>Lorem, ipsum dolor.</td>
+                  <td className='pl-3 text-zinc-600 dark:text-zinc-300 font-medium'>Lorem, ipsum dolor.</td>
                   <td className='pl-3 pr-3 py-1 rounded font-medium text-xs w-fit line-clamp-3'>Ice Cream Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, qui?</td>
                   <td className='pl-3 text-xs font-medium'>
                   <label class="inline-flex items-center cursor-pointer">

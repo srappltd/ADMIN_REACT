@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const SidebarLeft = ({menuSlide,menuClose,menuSlideBtn,menuCloseBtn}) => {
   return (
-    <div className={`${menuSlide ? 'lg:w-[5vw]' : 'lg:w-1/5' } w-[60%] lg:relative absolute ${menuClose ? 'left-[0%]' : '-left-[60%]' } lg:left-0 h-screen border-r  bg-white px-3 transition-all z-50 duration-300`}>
+    <div className={`${menuSlide ? 'lg:w-[5vw]' : 'lg:w-1/5' } w-[60%] lg:relative absolute ${menuClose ? 'left-[0%]' : '-left-[60%]' } lg:left-0 h-screen border-r dark:border-zinc-700  bg-white dark:bg-black px-3 transition-all z-50 duration-300`}>
             <nav className='w-full h-[8vh] flex items-center justify-between px-3 text-xl'>
                 <Link to={'/'} className={`font-bold ${menuSlide ? 'hidden' : '' } text-sm lg:text-xl whitespace-nowrap`}>
                     <img src="https://efood-admin.6amtech.com/storage/app/public/restaurant/2023-01-05-63b65bf675169.png" className='h-6' alt="" />
@@ -16,7 +16,7 @@ const SidebarLeft = ({menuSlide,menuClose,menuSlideBtn,menuCloseBtn}) => {
 
                 <div className={`w-full ${menuSlide ? 'hidden' : '' } flex items-center gap-3 border px-3 rounded text-sm border-red-300`}>
                     <label htmlFor=""><i className="ri-search-2-line font-bold"></i></label>
-                    <input type="text" className='py-2 px-3 w-full outline-none font-medium' placeholder='Search Menu...' />
+                    <input type="text" className='dark:bg-black py-2 px-3 w-full outline-none font-medium' placeholder='Search Menu...' />
                 </div>
                 <div className='w-full mt-3'>
                     <Button menuSlide={menuSlide} to={'/admin/deshboard'} classChange={'ri-home-4-line'} text={'Deshboard'}/>
