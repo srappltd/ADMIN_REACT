@@ -15,12 +15,14 @@ import Notification from './Components/Admin/Notification/Notification'
 import UsersList from './Components/Admin/Users/UsersList'
 import Setting from './Components/Admin/Setting'
 import PaymentList from './Components/Admin/VerifiyPayment/PaymentList'
+import Users from './Users'
 
 function App() {
   return (
     <div className='*:dark:bg-black dark:text-white dark:border-zinc-600 select-none' onContextMenu={(e)=>e.preventDefault()}>
       <Routes>
         <Route path='/admin/login' Component={SignIn} />
+        <Route path='/users' Component={Users} />
         <Route path='/admin' Component={Home}>
           <Route path='/admin/deshboard' Component={Deshboard}/>
           <Route path='/admin/orders' Component={OrderList}/>
